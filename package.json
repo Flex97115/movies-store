@@ -1,0 +1,13 @@
+{
+  "name": "movies-store",
+  "version": "1.0.0",
+  "description": "Another next js app from https://medium.appbase.io/part1-getting-started-with-react-and-nextjs-4f28a6a0c38e",
+  "main": "index.js",
+  "author": "Géry THRASIBULE",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
