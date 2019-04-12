@@ -6,17 +6,26 @@
   "author": "Géry THRASIBULE",
   "license": "MIT",
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.9",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.16.2",
+    "emotion": "^10.0.9",
+    "emotion-server": "^10.0.9",
     "express": "^4.16.4",
     "next": "^8.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
   "scripts": {
+    "dev": "next",
     "build": "next build",
     "start": "node server.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "babel-plugin-import": "^1.11.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-babel": "^5.3.0",
