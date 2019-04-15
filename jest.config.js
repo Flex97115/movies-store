@@ -1,5 +1,4 @@
-// setup file for ensyme
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-configure({ adapter: new Adapter() });
+module.exports = {
+    setupFiles: ['<rootDir>/jest.setup.js'],
+    testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/']
+};
